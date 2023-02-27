@@ -1,0 +1,42 @@
+/* General */
+body {
+    height: 200vh;
+}
+
+img {
+    object-fit: none;
+}
+
+/* Color Patte */
+
+/* navBar */
+.navBar {
+    background: #faeddf;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    width: max-content;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-nav-bar,
+.right-nav-bar {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.left-nav-bar {}
+
+.right-nav-bar {}
+
+/* background */
+body {
+    background-image: url("../Photo/fruits-bg.webp");
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+}
