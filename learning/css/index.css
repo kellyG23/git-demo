@@ -1,6 +1,13 @@
 /* General */
+* {
+    font-size: 62.5%;
+}
+
 body {
     height: 200vh;
+    width: 100vw;
+    position: absolute;
+    overflow-x: hidden;
 }
 
 img {
@@ -14,25 +21,26 @@ img {
     background: #faeddf;
 }
 
+.logo {
+    width: 10px;
+    height: 10px;
+}
+
 ul {
     list-style-type: none;
+    height: 27px;
+    padding: 15px;
     margin: 0;
-    width: max-content;
-    height: 56px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 10px;
 }
 
-.left-nav-bar,
-.right-nav-bar {
+.links {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
+    font-size: 1.2rem;
 }
-
-.left-nav-bar {}
-
-.right-nav-bar {}
 
 /* background */
 body {
